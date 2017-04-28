@@ -194,6 +194,9 @@ body {
 .container .main.post > .content > * {
   margin: 24px 0;
 }
+.container .main.post > .content a {
+  color: #607FA6;
+}
 .container .main.post > .content img {
   width: auto;
   max-width: 100%;
@@ -217,7 +220,7 @@ body {
   display: none;
 }
 .container .main.post > .content img + .image_caption::before {
-  content: "▲▲ ";
+  content: "▲ ";
   color: #04BE02;
 }
 .container .main.post > .content p {
@@ -234,4 +237,21 @@ body {
 }
 .container .main.post > .content > p.mediacy + p.mediacy {
   margin-top: -8px;
+}
+.container .main.post > .content > p.button {
+  line-height: 0;
+  text-align: center;
+}
+.container .main.post > .content > p.button > a {
+  max-width: 100%;
+  padding: 8px 32px;
+  color: #04BE02;
+  font-size: 12px;
+  letter-spacing: 2px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  border-radius: 4px;
+  border: 1px solid #04BE02;
+  display: inline-block;
 }

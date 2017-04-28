@@ -21,7 +21,7 @@
                     title: document.title,
                     desc: '心中有茶 时时花开',
                     link: window.location.href,
-                    imgUrl: document.querySelector('.content img') ? document.querySelector('.content img').src : 'http://i2.muimg.com/3539/236244acd13380a8.jpg'
+                    imgUrl: document.querySelector('.content img') ? document.querySelector('.content img').src : 'http://images.ctytea.com/immobile/991890b2762c6b54d739edaf9ee5bd1bbcb6b4ac.png'
                 };
                 wx.onMenuShareQQ(shareInfo);
                 wx.onMenuShareWeibo(shareInfo);
