@@ -28,7 +28,15 @@ strong {
   font-weight: bold;
 }
 
-html,
+html {
+  position: relative;
+  width: 100%;
+  color: #3E3E3E;
+  background: #E5E5E5;
+  pointer-events: none;
+  overflow: hidden;
+}
+
 body {
   position: relative;
   width: 100%;
