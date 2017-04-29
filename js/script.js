@@ -52,6 +52,6 @@
     var button = document.querySelector('.showQRcode');
     button && button.addEventListener('click', function (event) {
         // document.documentElement.scrollTop = document.body.scrollTop = document.body.scrollHeight;
-        document.querySelector('html').classList.add('modal');
+        document.body.classList.add('modal');
     });
 })();

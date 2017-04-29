@@ -36,7 +36,7 @@ body {
   background: #E5E5E5;
 }
 
-html.modal {
+body.modal {
   overflow: hidden;
   pointer-events: none;
 }
