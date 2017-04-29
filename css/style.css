@@ -77,7 +77,7 @@ body {
   display: block;
 }
 
-.qrcode ~ .container {
+.qrcode.active ~ .container {
   pointer-events: none;
 }
 
