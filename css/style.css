@@ -43,9 +43,10 @@ body {
   max-width: 680px;
   height: 100%;
   overflow: auto;
+  -webkit-overflow-scrolling: touch;
   margin: auto auto;
   color: #3E3E3E;
-  background: red;
+  background: blue;
 }
 .container > .footer {
   padding: 16px;
