@@ -33,7 +33,6 @@ html {
   width: 100%;
   color: #3E3E3E;
   background: #E5E5E5;
-  pointer-events: none;
   overflow: hidden;
 }
 
@@ -42,6 +41,7 @@ body {
   width: 100%;
   color: #3E3E3E;
   background: #E5E5E5;
+  background: red;
 }
 
 .container {
