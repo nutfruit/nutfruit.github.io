@@ -32,13 +32,10 @@ html,
 body {
   position: relative;
   width: 100%;
+  height: 100%;
+  overflow: auto;
   color: #3E3E3E;
   background: #E5E5E5;
-}
-
-body.modal {
-  overflow: hidden;
-  pointer-events: none;
 }
 
 .container {
@@ -47,7 +44,7 @@ body.modal {
   overflow: hidden;
   margin: auto auto;
   color: #3E3E3E;
-  background: #FFFFFF;
+  background: red;
 }
 .container > .footer {
   padding: 16px;
