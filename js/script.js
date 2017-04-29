@@ -51,7 +51,7 @@
 (function () {
     var button = document.querySelector('.showQRcode');
     button && button.addEventListener('click', function (event) {
-        document.documentElement.scrollTop = document.body.scrollTop = document.body.scrollHeight;
-        // document.body.classList.add('modal');
+        // document.documentElement.scrollTop = document.body.scrollTop = document.body.scrollHeight;
+        document.querySelector('.qrcode').classList.add('active');
     });
 })();
